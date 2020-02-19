@@ -1,0 +1,42 @@
+{
+  "name": "gatsby-transform-sharp-watermark",
+  "version": "1.0.0",
+  "description": "Gatsby transformer plugin for add watermark to images using Sharp",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --out-dir . --ignore **/__tests__",
+    "prepare": "cross-env NODE_ENV=production npm run build",
+    "watch": "babel src --watch --out-dir . --ignore **/__tests__"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "gatsby-transform",
+    "sharp",
+    "watermark"
+  ],
+  "author": "Javier López Úbeda <jlopezcur@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/jlopezcur/gatsby-transformer-sharp-watermark/issues"
+  },
+  "homepage": "https://github.com/jlopezcur/gatsby-transformer-sharp-watermark/tree/master#readme",
+  "peerDependencies": {
+    "gatsby": "^2.19.18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jlopezcur/gatsby-transformer-sharp-watermark"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^8.1.0",
+    "sharp": "^0.24.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/runtime": "^7.8.4",
+    "babel-preset-gatsby-package": "^0.2.16",
+    "cross-env": "^7.0.0"
+  }
+}
