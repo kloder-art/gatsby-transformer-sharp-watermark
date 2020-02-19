@@ -4,6 +4,7 @@
   "description": "Gatsby transformer plugin for add watermark to images using Sharp",
   "main": "index.js",
   "scripts": {
+    "test": "echo \"No test yet!\" && exit 0",
     "build": "babel src --out-dir . --ignore **/__tests__",
     "prepare": "cross-env NODE_ENV=production npm run build",
     "watch": "babel src --watch --out-dir . --ignore **/__tests__"
