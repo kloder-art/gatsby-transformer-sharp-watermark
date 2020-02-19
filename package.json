@@ -17,15 +17,15 @@
   ],
   "author": "Javier López Úbeda <jlopezcur@gmail.com>",
   "bugs": {
-    "url": "https://github.com/jlopezcur/gatsby-transformer-sharp-watermark/issues"
+    "url": "https://github.com/kloderart/gatsby-transform-sharp-watermark/issues"
   },
-  "homepage": "https://github.com/jlopezcur/gatsby-transformer-sharp-watermark/tree/master#readme",
+  "homepage": "https://github.com/kloderart/gatsby-transform-sharp-watermark",
   "peerDependencies": {
     "gatsby": "^2.19.18"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jlopezcur/gatsby-transformer-sharp-watermark"
+    "url": "https://github.com/kloderart/gatsby-transform-sharp-watermark"
   },
   "license": "MIT",
   "dependencies": {
