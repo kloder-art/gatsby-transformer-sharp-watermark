@@ -37,7 +37,7 @@ export const createSchemaCustomization = async (
             defaultValue: 'over',
           },
         },
-        resolve: (image, fieldArgs, context) => {
+        async resolve(image, fieldArgs, context) {
           const args = { ...fieldArgs, pathPrefix };
           const details = getNodeAndSavePathDependency(
             image.parent,
@@ -77,6 +77,6 @@ export const createSchemaCustomization = async (
   });
 
   if (createTypes) {
-    createTypes([imageWatermarkType]);
+    createTypes([WatermarkGravityType, WatermarkBlendType, imageWatermarkType]);
   }
 };
