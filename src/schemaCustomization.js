@@ -1,4 +1,3 @@
-import sharp from 'sharp';
 import {
   GraphQLObjectType,
   GraphQLString,
@@ -7,6 +6,7 @@ import {
 import fs from 'fs-extra';
 
 import { WatermarkGravityType, WatermarkBlendType } from './types';
+const sharp = require(`./safe-sharp`);
 
 export const createSchemaCustomization = async (
   { actions, schema, pathPrefix, getNodeAndSavePathDependency },

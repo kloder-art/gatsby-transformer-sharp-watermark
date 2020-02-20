@@ -1,6 +1,6 @@
 {
   "name": "gatsby-transformer-sharp-watermark",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Gatsby transformer plugin for add watermark to images using Sharp",
   "main": "index.js",
   "scripts": {
